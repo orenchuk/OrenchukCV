@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		C1B97AA7227EE4DC00B7A87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AA6227EE4DC00B7A87E /* AppDelegate.swift */; };
-		C1B97AA9227EE4DC00B7A87E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AA8227EE4DC00B7A87E /* RootViewController.swift */; };
-		C1B97AAB227EE4DC00B7A87E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AAA227EE4DC00B7A87E /* DataViewController.swift */; };
-		C1B97AAD227EE4DC00B7A87E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AAC227EE4DC00B7A87E /* ModelController.swift */; };
 		C1B97AB0227EE4DC00B7A87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B97AAE227EE4DC00B7A87E /* Main.storyboard */; };
 		C1B97AB2227EE4DE00B7A87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B97AB1227EE4DE00B7A87E /* Assets.xcassets */; };
 		C1B97AB5227EE4DE00B7A87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B97AB3227EE4DE00B7A87E /* LaunchScreen.storyboard */; };
+		C1B97ABE227EF33200B7A87E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97ABD227EF33200B7A87E /* UIView+Extension.swift */; };
+		C1B97AC5227EFAD900B7A87E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AC4227EFAD900B7A87E /* ProfileVC.swift */; };
+		C1B97AC7227EFAEA00B7A87E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AC6227EFAEA00B7A87E /* ProfileViewModel.swift */; };
+		C1B97ACB227F03CF00B7A87E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97ACA227F03CF00B7A87E /* Constants.swift */; };
+		C1B97AD0227F4E8B00B7A87E /* ExperienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97ACF227F4E8B00B7A87E /* ExperienceVC.swift */; };
+		C1B97AD3227F4FBE00B7A87E /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AD2227F4FBE00B7A87E /* ExperienceViewModel.swift */; };
+		C1B97AD5227F504000B7A87E /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AD4227F504000B7A87E /* Experience.swift */; };
+		C1B97ADE227F5A5300B7A87E /* ExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97ADC227F5A5300B7A87E /* ExperienceCell.swift */; };
+		C1B97ADF227F5A5300B7A87E /* ExperienceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B97ADD227F5A5300B7A87E /* ExperienceCell.xib */; };
+		C1B97AE1227F7DB800B7A87E /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AE0227F7DB800B7A87E /* Skill.swift */; };
+		C1B97AE4227F851000B7A87E /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97AE3227F851000B7A87E /* SkillCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1B97AA3227EE4DC00B7A87E /* OrenchukCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrenchukCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B97AA6227EE4DC00B7A87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1B97AA8227EE4DC00B7A87E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		C1B97AAA227EE4DC00B7A87E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		C1B97AAC227EE4DC00B7A87E /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		C1B97AAF227EE4DC00B7A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1B97AB1227EE4DE00B7A87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1B97AB4227EE4DE00B7A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1B97AB6227EE4DE00B7A87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B97ABD227EF33200B7A87E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C1B97AC4227EFAD900B7A87E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		C1B97AC6227EFAEA00B7A87E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C1B97ACA227F03CF00B7A87E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1B97ACF227F4E8B00B7A87E /* ExperienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceVC.swift; sourceTree = "<group>"; };
+		C1B97AD2227F4FBE00B7A87E /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
+		C1B97AD4227F504000B7A87E /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		C1B97ADC227F5A5300B7A87E /* ExperienceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceCell.swift; sourceTree = "<group>"; };
+		C1B97ADD227F5A5300B7A87E /* ExperienceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExperienceCell.xib; sourceTree = "<group>"; };
+		C1B97AE0227F7DB800B7A87E /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		C1B97AE3227F851000B7A87E /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +74,120 @@
 		C1B97AA5227EE4DC00B7A87E /* OrenchukCV */ = {
 			isa = PBXGroup;
 			children = (
-				C1B97AA6227EE4DC00B7A87E /* AppDelegate.swift */,
-				C1B97AA8227EE4DC00B7A87E /* RootViewController.swift */,
-				C1B97AAA227EE4DC00B7A87E /* DataViewController.swift */,
-				C1B97AAC227EE4DC00B7A87E /* ModelController.swift */,
-				C1B97AAE227EE4DC00B7A87E /* Main.storyboard */,
-				C1B97AB1227EE4DE00B7A87E /* Assets.xcassets */,
-				C1B97AB3227EE4DE00B7A87E /* LaunchScreen.storyboard */,
-				C1B97AB6227EE4DE00B7A87E /* Info.plist */,
+				C1B97ABC227EF31C00B7A87E /* Extensions */,
+				C1B97ACC227F03D300B7A87E /* Constants */,
+				C1B97ACE227F4E5B00B7A87E /* Models */,
+				C1B97ABF227EFA3800B7A87E /* Scenes */,
+				C1B97AC1227EFA8D00B7A87E /* Storyboards */,
+				C1B97AC0227EFA7700B7A87E /* Resources */,
+				C1B97AC2227EFAA700B7A87E /* SupportingFiles */,
 			);
 			path = OrenchukCV;
+			sourceTree = "<group>";
+		};
+		C1B97ABC227EF31C00B7A87E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97ABD227EF33200B7A87E /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C1B97ABF227EFA3800B7A87E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AD1227F4EEA00B7A87E /* Cells */,
+				C1B97ACD227F4E4600B7A87E /* ExperienceVC */,
+				C1B97AC3227EFAC400B7A87E /* ProfileVC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C1B97AC0227EFA7700B7A87E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AB1227EE4DE00B7A87E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1B97AC1227EFA8D00B7A87E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AAE227EE4DC00B7A87E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C1B97AC2227EFAA700B7A87E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AA6227EE4DC00B7A87E /* AppDelegate.swift */,
+				C1B97AB6227EE4DE00B7A87E /* Info.plist */,
+				C1B97AB3227EE4DE00B7A87E /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C1B97AC3227EFAC400B7A87E /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AC4227EFAD900B7A87E /* ProfileVC.swift */,
+				C1B97AC6227EFAEA00B7A87E /* ProfileViewModel.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		C1B97ACC227F03D300B7A87E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97ACA227F03CF00B7A87E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C1B97ACD227F4E4600B7A87E /* ExperienceVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97ACF227F4E8B00B7A87E /* ExperienceVC.swift */,
+				C1B97AD2227F4FBE00B7A87E /* ExperienceViewModel.swift */,
+			);
+			path = ExperienceVC;
+			sourceTree = "<group>";
+		};
+		C1B97ACE227F4E5B00B7A87E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AD4227F504000B7A87E /* Experience.swift */,
+				C1B97AE0227F7DB800B7A87E /* Skill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1B97AD1227F4EEA00B7A87E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AE2227F84EE00B7A87E /* SkillCell */,
+				C1B97ADB227F5A5300B7A87E /* ExperienceCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1B97ADB227F5A5300B7A87E /* ExperienceCell */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97ADC227F5A5300B7A87E /* ExperienceCell.swift */,
+				C1B97ADD227F5A5300B7A87E /* ExperienceCell.xib */,
+			);
+			path = ExperienceCell;
+			sourceTree = "<group>";
+		};
+		C1B97AE2227F84EE00B7A87E /* SkillCell */ = {
+			isa = PBXGroup;
+			children = (
+				C1B97AE3227F851000B7A87E /* SkillCell.swift */,
+			);
+			path = SkillCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +251,7 @@
 				C1B97AB5227EE4DE00B7A87E /* LaunchScreen.storyboard in Resources */,
 				C1B97AB2227EE4DE00B7A87E /* Assets.xcassets in Resources */,
 				C1B97AB0227EE4DC00B7A87E /* Main.storyboard in Resources */,
+				C1B97ADF227F5A5300B7A87E /* ExperienceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +262,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B97AA9227EE4DC00B7A87E /* RootViewController.swift in Sources */,
-				C1B97AAD227EE4DC00B7A87E /* ModelController.swift in Sources */,
-				C1B97AAB227EE4DC00B7A87E /* DataViewController.swift in Sources */,
+				C1B97ACB227F03CF00B7A87E /* Constants.swift in Sources */,
+				C1B97AD3227F4FBE00B7A87E /* ExperienceViewModel.swift in Sources */,
+				C1B97AC5227EFAD900B7A87E /* ProfileVC.swift in Sources */,
+				C1B97AD5227F504000B7A87E /* Experience.swift in Sources */,
+				C1B97ABE227EF33200B7A87E /* UIView+Extension.swift in Sources */,
+				C1B97ADE227F5A5300B7A87E /* ExperienceCell.swift in Sources */,
+				C1B97AE4227F851000B7A87E /* SkillCell.swift in Sources */,
+				C1B97AC7227EFAEA00B7A87E /* ProfileViewModel.swift in Sources */,
+				C1B97AE1227F7DB800B7A87E /* Skill.swift in Sources */,
+				C1B97AD0227F4E8B00B7A87E /* ExperienceVC.swift in Sources */,
 				C1B97AA7227EE4DC00B7A87E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 648A3N24L8;
-				INFOPLIST_FILE = OrenchukCV/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OrenchukCV/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 648A3N24L8;
-				INFOPLIST_FILE = OrenchukCV/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OrenchukCV/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
